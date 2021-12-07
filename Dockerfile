@@ -17,6 +17,6 @@ COPY --from=builder /src/bin/proxy /bin/proxy
 
 USER proxy
 
-EXPOSE 8080
+EXPOSE 9400
 
 ENTRYPOINT ["/bin/proxy"]
